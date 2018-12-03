@@ -1,0 +1,63 @@
+<div class="container-fluid">
+  <div>  
+    <h3 class="title title--secondary">
+      Lista de Usuarios
+    <br>
+    <br>
+      <!-- <div class="grid-filter">
+        <div class="d-flex w-100 align-items-center">
+          <label for="colFormLabelSm">Procurar</label>
+          <div class="grid-filter__search w-100">
+            <input type='text' class="form-control form-control-sm" placeholder='Digite o conteúdo desejado...' (keyup)='updateFilter($event)' />
+            <i class="icon icon-search"></i>
+          </div>
+        </div>
+      </div> -->
+    </h3>
+  </div>
+  <div>
+       
+      <ngx-datatable #UsersTable [columnMode]="'force'"
+      [rows]="dataSet"
+      [columns]="columns"
+      [scrollbarV]="false"
+      [rowHeight]='"auto"'
+      [limit]="7"
+      [messages]="{emptyMessage: 'Não há dados para exibir', totalMessage: 'Total'}"
+   
+      >
+  
+        <!-- Grid Footer -->
+        <ngx-datatable-column name="Nome" prop="name">
+          <ng-template ngx-datatable-cell-template let-rowIndex="rowIndex" let-row="row">
+            {{row.name}}
+          </ng-template>
+        </ngx-datatable-column>
+        <ngx-datatable-column name="Documento" prop="documentNumber">
+          <ng-template ngx-datatable-cell-template let-rowIndex="rowIndex" let-row="row">
+            {{row.documentNumber}}
+          </ng-template>
+        </ngx-datatable-column>
+        <ngx-datatable-column name="Idade" prop="age">
+            <ng-template ngx-datatable-cell-template let-rowIndex="rowIndex" let-row="row">
+              {{row.age}}
+            </ng-template>
+          </ngx-datatable-column>
+          <ngx-datatable-column name="Editar" prop="Edit">
+              <ng-template ngx-datatable-cell-template let-rowIndex="rowIndex" let-row="row">
+                  <button type="button" class="btn btn-outline-primary" (click)="EditUser(row.id,row.name,row.documentNumber,row.age)">Editar Usuário</button>
+              </ng-template>
+            </ngx-datatable-column>
+            <ngx-datatable-column name="Deletar" prop="Delete">
+              <ng-template ngx-datatable-cell-template let-rowIndex="rowIndex" let-row="row">
+                  <button type="button" class="btn btn-outline-primary" (click)="DeleteUser(row.id)">Deletar</button>
+              </ng-template>
+            </ngx-datatable-column>
+       
+       </ngx-datatable> 
+   
+    </div>
+  </div>
+  
+<edit-user-action [hidden]="!show" #EditUserModalComponent (onCloseModal)="confirmEditUser($event)"></edit-user-action>
+
