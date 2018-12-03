@@ -1,0 +1,14 @@
+C:\Users\gpelisso\source\repos\WebApiUsuario\User.Infra.Data\bin\Debug\netcoreapp2.1\User.Infra.Data.deps.json
+C:\Users\gpelisso\source\repos\WebApiUsuario\User.Infra.Data\bin\Debug\netcoreapp2.1\User.Infra.Data.runtimeconfig.json
+C:\Users\gpelisso\source\repos\WebApiUsuario\User.Infra.Data\bin\Debug\netcoreapp2.1\User.Infra.Data.runtimeconfig.dev.json
+C:\Users\gpelisso\source\repos\WebApiUsuario\User.Infra.Data\bin\Debug\netcoreapp2.1\User.Infra.Data.dll
+C:\Users\gpelisso\source\repos\WebApiUsuario\User.Infra.Data\obj\Debug\netcoreapp2.1\User.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\gpelisso\source\repos\WebApiUsuario\User.Infra.Data\obj\Debug\netcoreapp2.1\User.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\gpelisso\source\repos\WebApiUsuario\User.Infra.Data\obj\Debug\netcoreapp2.1\User.Infra.Data.AssemblyInfo.cs
+C:\Users\gpelisso\source\repos\WebApiUsuario\User.Infra.Data\obj\Debug\netcoreapp2.1\User.Infra.Data.csprojAssemblyReference.cache
+C:\Users\gpelisso\source\repos\WebApiUsuario\User.Infra.Data\obj\Debug\netcoreapp2.1\User.Infra.Data.csproj.CopyComplete
+C:\Users\gpelisso\source\repos\WebApiUsuario\User.Infra.Data\bin\Debug\netcoreapp2.1\User.Infra.Data.pdb
+C:\Users\gpelisso\source\repos\WebApiUsuario\User.Infra.Data\bin\Debug\netcoreapp2.1\User.Domain.dll
+C:\Users\gpelisso\source\repos\WebApiUsuario\User.Infra.Data\bin\Debug\netcoreapp2.1\User.Domain.pdb
+C:\Users\gpelisso\source\repos\WebApiUsuario\User.Infra.Data\obj\Debug\netcoreapp2.1\User.Infra.Data.dll
+C:\Users\gpelisso\source\repos\WebApiUsuario\User.Infra.Data\obj\Debug\netcoreapp2.1\User.Infra.Data.pdb

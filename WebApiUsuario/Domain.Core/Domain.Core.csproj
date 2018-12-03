@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Bus\**" />
+    <Compile Remove="Commands\**" />
+    <Compile Remove="Events\**" />
+    <Compile Remove="Mediator\**" />
+    <Compile Remove="Models\DomainMessage\**" />
+    <Compile Remove="Notifications\**" />
+    <Compile Remove="Services\**" />
+    <EmbeddedResource Remove="Bus\**" />
+    <EmbeddedResource Remove="Commands\**" />
+    <EmbeddedResource Remove="Events\**" />
+    <EmbeddedResource Remove="Mediator\**" />
+    <EmbeddedResource Remove="Models\DomainMessage\**" />
+    <EmbeddedResource Remove="Notifications\**" />
+    <EmbeddedResource Remove="Services\**" />
+    <None Remove="Bus\**" />
+    <None Remove="Commands\**" />
+    <None Remove="Events\**" />
+    <None Remove="Mediator\**" />
+    <None Remove="Models\DomainMessage\**" />
+    <None Remove="Notifications\**" />
+    <None Remove="Services\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="8.0.101" />
+  </ItemGroup>
+
+</Project>

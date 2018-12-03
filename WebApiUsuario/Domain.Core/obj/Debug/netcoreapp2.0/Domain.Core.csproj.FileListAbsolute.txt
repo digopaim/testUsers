@@ -1,0 +1,12 @@
+C:\kleber\FSM\src\Shared\Domain.Core\bin\Debug\netcoreapp2.0\Domain.Core.deps.json
+C:\kleber\FSM\src\Shared\Domain.Core\bin\Debug\netcoreapp2.0\Domain.Core.dll
+C:\kleber\FSM\src\Shared\Domain.Core\bin\Debug\netcoreapp2.0\Domain.Core.pdb
+C:\kleber\FSM\src\Shared\Domain.Core\bin\Debug\netcoreapp2.0\RabbitMQ.dll
+C:\kleber\FSM\src\Shared\Domain.Core\bin\Debug\netcoreapp2.0\RabbitMQ.pdb
+C:\kleber\FSM\src\Shared\Domain.Core\obj\Debug\netcoreapp2.0\Domain.Core.csprojAssemblyReference.cache
+C:\kleber\FSM\src\Shared\Domain.Core\obj\Debug\netcoreapp2.0\Domain.Core.csproj.CoreCompileInputs.cache
+C:\kleber\FSM\src\Shared\Domain.Core\obj\Debug\netcoreapp2.0\Domain.Core.AssemblyInfoInputs.cache
+C:\kleber\FSM\src\Shared\Domain.Core\obj\Debug\netcoreapp2.0\Domain.Core.AssemblyInfo.cs
+C:\kleber\FSM\src\Shared\Domain.Core\obj\Debug\netcoreapp2.0\Domain.Core.csproj.CopyComplete
+C:\kleber\FSM\src\Shared\Domain.Core\obj\Debug\netcoreapp2.0\Domain.Core.dll
+C:\kleber\FSM\src\Shared\Domain.Core\obj\Debug\netcoreapp2.0\Domain.Core.pdb
